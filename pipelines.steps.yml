@@ -2,7 +2,7 @@ resources:
   - name: myAppRepo
     type: GitRepo
     configuration:
-      gitProvider: GitHub
+      gitProvider: EliGit
       path: elimoshko14/pipelines-simple-steps
 pipelines:
   - name: pipeline_hello_world
